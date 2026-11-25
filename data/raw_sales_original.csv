@@ -1,0 +1,21 @@
+Transaction_ID,Date,Product,Category,Quantity,Unit_Price,Unit_Cost,Salesperson,City,Payment_Method,Discount_Percent
+TX001,2026-01-05,Laptop,Computers,2,650.0000,500,John,Bulawayo,Cash,0
+TX002,06/01/2026,Smartphone,Mobile,5,300.0000,220,Mary,Harare,EcoCash,5
+TX003,2026-01-07,keyboard,Accessories,10,25.0000,12,Peter,Gweru,Bank Transfer,0
+TX004,2026-01-08,Monitor,Computers,3,180.0000,130,John,Bulawayo,Cash,10
+TX005,09-01-2026,Printer,Office Equipment,2,220.0000,160,Sarah,Mutare,EcoCash,0
+TX006,2026-01-10,LAPTOP,Computers,1,700.0000,520,Mary,Harare,Bank Transfer,5
+TX007,2026-01-11,Mouse,Accessories,15,15.0000,7,Peter,Gweru,Cash,0
+TX008,12/01/2026,Smartphone,Mobile,4,320.0000,240,Sarah,Mutare,EcoCash,10
+TX009,2026-01-13,monitor,Computers,-2,200.0000,145,John,Bulawayo,Cash,0
+TX010,2026-01-14,Keyboard,Accessories,8,30.0000,14,Mary,Harare,Bank Transfer,0
+TX011,2026-01-15,Laptop,Computers,3,680.0000,510,John,Bulawayo,Cash,5
+TX012,16/01/2026,Printer,Office Equipment,2,,165,Sarah,Mutare,EcoCash,0
+TX013,2026-01-17,Mouse,Accessories,12,18.0000,8,Peter,Gweru,Cash,0
+TX014,2026-01-18,Smartphone,Mobile,5,310.0000,235,Mary,Harare,Bank Transfer,5
+TX015,19-01-2026,Laptop,Computers,0,670.0000,505,John,Bulawayo,Cash,10
+TX016,2026-01-20,Monitor,Computers,4,190.0000,140,Sarah,Mutare,EcoCash,0
+TX017,2026-01-21,Keyboard,Accessories,9,28.0000,13,Peter,Gweru,Cash,0
+TX018,2026-01-22,Printer,Office Equipment,2,230.0000,170,Mary,Harare,Bank Transfer,5
+TX019,2026-01-23,Smartphone,Mobile,6,330.0000,250,Sarah,Mutare,EcoCash,10
+TX020,2026-01-24,Mouse,Accessories,20,15.0000,7,Peter,Gweru,Cash,0

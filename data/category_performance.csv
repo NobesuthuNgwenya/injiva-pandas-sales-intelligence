@@ -1,0 +1,5 @@
+Category,Transactions,Units_Sold,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Avg_Discount_Pct,Gross_Profit_Margin_Pct,Revenue_Share_Pct,Profit_Share_Pct,Avg_Transaction_Value,Revenue_Rank,Profit_Rank
+Mobile,4,20,6310.0000,478.5000,5831.5000,4735.0000,1096.5000,7.5000,18.8031,43.7128,33.6815,1457.8750,1,2
+Computers,5,13,5340.0000,191.0000,5149.0000,4000.0000,1149.0000,4.0000,22.3150,38.5968,35.2941,1029.8000,2,1
+Accessories,6,74,1483.0000,0.0000,1483.0000,690.0000,793.0000,0.0000,53.4727,11.1165,24.3588,247.1667,3,3
+Office Equipment,2,4,900.0000,23.0000,877.0000,660.0000,217.0000,2.5000,24.7434,6.5740,6.6656,438.5000,4,4

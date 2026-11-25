@@ -1,0 +1,14 @@
+Transaction_ID,Column,Original_Value,Issue,Severity,Recommended_Action,Resolution_Status
+TX009,Quantity,-2,"Negative quantity - possible return, reversal or entry error",High,Quarantine for manual review; confirm with source whether this is a return linked to an original sale,Unresolved - record quarantined for manual review
+TX015,Quantity,0,"Zero quantity - no goods sold, record has no financial effect",Medium,Quarantine for manual review (possible cancelled or incomplete transaction),Unresolved - record quarantined for manual review
+TX012,Unit_Price,<missing>,Missing selling price - revenue cannot be determined,High,Do not impute or zero-fill; quarantine and obtain the invoiced price from the POS/finance system,Unresolved - record quarantined for manual review
+TX003,Product,keyboard,Inconsistent product naming (standard form: 'Keyboard'),Low,Standardise to title case,Resolved - standardised during cleaning
+TX006,Product,LAPTOP,Inconsistent product naming (standard form: 'Laptop'),Low,Standardise to title case,Resolved - standardised during cleaning
+TX009,Product,monitor,Inconsistent product naming (standard form: 'Monitor'),Low,Standardise to title case,Unresolved - record quarantined for manual review
+TX002,Date,06/01/2026,"Non-standard date format (day-first, not ISO 8601)",Low,Parse with explicit day-first format and store as datetime,Resolved - standardised during cleaning
+TX005,Date,09-01-2026,"Non-standard date format (day-first, not ISO 8601)",Low,Parse with explicit day-first format and store as datetime,Resolved - standardised during cleaning
+TX008,Date,12/01/2026,"Non-standard date format (day-first, not ISO 8601)",Low,Parse with explicit day-first format and store as datetime,Resolved - standardised during cleaning
+TX012,Date,16/01/2026,"Non-standard date format (day-first, not ISO 8601)",Low,Parse with explicit day-first format and store as datetime,Unresolved - record quarantined for manual review
+TX015,Date,19-01-2026,"Non-standard date format (day-first, not ISO 8601)",Low,Parse with explicit day-first format and store as datetime,Unresolved - record quarantined for manual review
+(column-level),Date,str,"Date stored as text, not datetime",Medium,Convert to datetime64 with explicit formats,Resolved - dtype corrected during cleaning
+(column-level),Unit_Price,float64,Integer prices coerced to float because of a missing value,Low,Keep as float (currency); resolve missing value,Resolved - dtype corrected during cleaning

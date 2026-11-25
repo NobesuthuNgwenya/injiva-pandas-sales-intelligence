@@ -1,0 +1,4 @@
+Payment_Method,Transactions,Units_Sold,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Avg_Discount_Pct,Gross_Profit_Margin_Pct,Revenue_Share_Pct,Profit_Share_Pct,Avg_Transaction_Value,Revenue_Rank,Profit_Rank
+EcoCash,5,21,5960.0000,401.0000,5559.0000,4440.0000,1119.0000,5.0000,20.1295,41.6701,34.3726,1111.8000,1,2
+Cash,7,64,4873.0000,156.0000,4717.0000,3378.0000,1339.0000,2.1429,28.3867,35.3585,41.1304,673.8571,2,1
+Bank Transfer,5,26,3200.0000,135.5000,3064.5000,2267.0000,797.5000,3.0000,26.0238,22.9714,24.4970,612.9000,3,3

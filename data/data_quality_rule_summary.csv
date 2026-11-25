@@ -1,0 +1,19 @@
+Rule,Description,Violations,Status
+missing_values,Missing values in any column other than Unit_Price,0,PASS
+duplicate_transaction_id,Transaction_ID must be unique,0,PASS
+duplicate_record,No completely duplicated rows,0,PASS
+negative_quantity,Quantity must not be negative,1,FAIL
+zero_quantity,Quantity must not be zero,1,FAIL
+non_numeric_quantity,Quantity must be numeric,0,PASS
+missing_unit_price,Unit_Price must be present,1,FAIL
+invalid_unit_price,Unit_Price must be numeric and > 0,0,PASS
+price_below_cost,Unit_Price should not be below Unit_Cost,0,PASS
+invalid_unit_cost,Unit_Cost must be numeric and >= 0,0,PASS
+inconsistent_product_name,Product names must use standard title case,3,FAIL
+inconsistent_category,"Category must be one of ['Computers', 'Mobile', 'Accessories', 'Office Equipment']",0,PASS
+invalid_date,Date must be a valid calendar date in a supported format,0,PASS
+non_iso_date_format,Dates should be in ISO format YYYY-MM-DD,5,FAIL
+incorrect_dtype,Columns must have dtypes matching their logical type,2,FAIL
+invalid_discount,Discount_Percent must be between 0 and 100,0,PASS
+suspicious_discount,Discount_Percent above 15% is suspicious,0,PASS
+product_category_mismatch,Each product must belong to its expected category,0,PASS

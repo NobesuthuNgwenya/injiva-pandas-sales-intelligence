@@ -1,0 +1,12 @@
+Metric,Value
+Raw records,20
+Accepted records,17
+Rejected records (manual review),3
+Product names standardised,3
+Dates converted from non-ISO formats,5
+Unparseable dates,0
+Missing unit prices (not imputed),1
+Negative quantities,1
+Zero quantities,1
+Duplicate Transaction_IDs after cleaning,0
+Records reconciled (accepted + rejected = raw),True

@@ -1,0 +1,7 @@
+Product,Transactions,Units_Sold,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Avg_Discount_Pct,Gross_Profit_Margin_Pct,Revenue_Share_Pct,Profit_Share_Pct,Avg_Transaction_Value,Revenue_Rank,Profit_Rank,Performance_Class
+Smartphone,4,20,6310.0000,478.5000,5831.5000,4735.0000,1096.5000,7.5000,18.8031,43.7128,33.6815,1457.8750,1,1,Volume Driver
+Laptop,3,6,4040.0000,137.0000,3903.0000,3050.0000,853.0000,3.3333,21.8550,29.2568,26.2018,1301.0000,2,2,Volume Driver
+Monitor,2,7,1300.0000,54.0000,1246.0000,950.0000,296.0000,5.0000,23.7560,9.3400,9.0923,623.0000,3,5,Underperformer
+Printer,2,4,900.0000,23.0000,877.0000,660.0000,217.0000,2.5000,24.7434,6.5740,6.6656,438.5000,4,6,Margin Niche
+Keyboard,3,27,742.0000,0.0000,742.0000,349.0000,393.0000,0.0000,52.9650,5.5620,12.0719,247.3333,5,4,Margin Niche
+Mouse,3,47,741.0000,0.0000,741.0000,341.0000,400.0000,0.0000,53.9811,5.5545,12.2869,247.0000,6,3,Margin Niche

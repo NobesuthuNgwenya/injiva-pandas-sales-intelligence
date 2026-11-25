@@ -1,0 +1,6 @@
+City,Transactions,Units_Sold,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Avg_Discount_Pct,Gross_Profit_Margin_Pct,Revenue_Share_Pct,Profit_Share_Pct,Avg_Transaction_Value,Revenue_Rank,Profit_Rank,Data_Note
+Harare,5.0000,21.0000,4450.0000,210.5000,4239.5000,3247.0000,992.5000,4.0000,23.4108,31.7792,30.4869,847.9000,1.0000,1.0000,Records available
+Mutare,4.0000,16.0000,4460.0000,326.0000,4134.0000,3340.0000,794.0000,5.0000,19.2066,30.9883,24.3895,1033.5000,2.0000,3.0000,Records available
+Bulawayo,3.0000,8.0000,3880.0000,156.0000,3724.0000,2920.0000,804.0000,5.0000,21.5897,27.9150,24.6967,1241.3333,3.0000,2.0000,Records available
+Gweru,5.0000,66.0000,1243.0000,0.0000,1243.0000,578.0000,665.0000,0.0000,53.4996,9.3175,20.4270,248.6000,4.0000,4.0000,Records available
+Masvingo,,,,,,,,,,,,,,,No records in sample - activity unknown
